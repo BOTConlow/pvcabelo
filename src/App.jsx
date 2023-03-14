@@ -25,7 +25,7 @@ function App() {
         </Container>
       </Background>
 
-        <Whatsapp />
+      <Whatsapp />
 
       <Background bgImage='background1'>
         <Container>

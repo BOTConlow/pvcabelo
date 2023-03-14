@@ -29,7 +29,7 @@ export const Texts = styled.div`
         margin: 2rem 0;
 
         @media (max-width: 1000px) {
-            font-size: 1.9rem;
+            font-size: 2.5rem;
             text-align: center;
         }
     }
