@@ -14,6 +14,7 @@ export const Container = styled.div`
 
     @media (max-width: 1000px) {
         max-width: 30rem;
+        width: auto;
         gap: 1rem;
         margin: 0 auto;
         padding: 1rem 0;

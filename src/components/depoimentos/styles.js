@@ -14,6 +14,8 @@ export const DepoimentosContainer = styled.div`
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            margin: 1rem 0 3rem;
+            padding: 1rem;
         }
 
 `
@@ -29,6 +31,7 @@ export const Title = styled.div`
 
         @media (max-width: 1000px) {
             font-size: 1.5rem;
+            padding: 0;
         }
     }
 
@@ -40,6 +43,7 @@ export const Title = styled.div`
 
         @media (max-width: 1000px) {
             font-size: 1rem;
+            padding: 0;
         }
     }
     
@@ -63,7 +67,7 @@ export const Title = styled.div`
         @media (max-width: 1000px) {
             top: .47rem;
             height: 15.1rem;
-            left: .7rem;
+            left: -2rem;
         }
     }
 
