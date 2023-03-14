@@ -97,6 +97,8 @@ export const Box = styled.div`
 
 export const Title = styled.div`
 
+    text-align: left;
+
     h2 {
         margin-bottom: 1rem;
         color: ${props => props.theme.secondary};
