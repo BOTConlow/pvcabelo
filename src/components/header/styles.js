@@ -7,6 +7,14 @@ export const HeaderContainer = styled.header`
     align-items: center;
     justify-content: space-between;
     text-align: center;
+
+    @media (max-width: 1000px) {
+
+        justify-content: space-around;
+        gap: 5rem;
+
+    }
+
 `
 
 export const ButtonContent = styled.header`

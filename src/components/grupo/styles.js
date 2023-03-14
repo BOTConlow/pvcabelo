@@ -3,11 +3,15 @@ import styled from 'styled-components'
 export const GrupoContainer = styled.div`
 
     padding: 3rem 0;
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 1000px) {
+        padding: 1rem;
+    }
+
 
     button {
         margin-top: 1.5rem;
