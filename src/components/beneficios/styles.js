@@ -10,6 +10,11 @@ export const BeneficiosContainer = styled.div`
     justify-content: center;
     text-align: center;
 
+    @media (max-width: 1000px) {
+        padding: 1rem;
+    }
+
+
     h1 {
         font-size: 2.8rem;
         margin-bottom: 5rem;
@@ -45,6 +50,11 @@ export const Background = styled.div`
             
             &:hover {
                 transform:translateX(-4rem) !important;
+
+                @media (max-width: 1000px) {
+
+                transform:translateX(-1rem) !important;
+                }
             }
         }
 
@@ -75,6 +85,12 @@ export const Box = styled.div`
 
     &:hover {
         transform:translateX(4rem);
+
+        @media (max-width: 1000px) {
+
+            transform:translateX(1rem);
+        }
+
     }
 
 `
