@@ -26,7 +26,7 @@ export function Dermatologista(dermatoRef) {
                     src={Dermato}
                 />
             </Texts>
-            <Promocao>
+            <Promocao> 
                 <p>
                     FAÇA SUA INSCRIÇÃO E COMECE HOJE MESMO
                 </p>
