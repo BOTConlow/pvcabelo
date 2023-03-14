@@ -10,6 +10,7 @@ export const DermatoContainer = styled.div`
 
     @media (max-width: 1000px) {
             margin: 0;
+            padding: 1rem;
         }
 `
 
@@ -31,6 +32,8 @@ export const Texts = styled.div`
         @media (max-width: 1000px) {
             font-size: 2.5rem;
             text-align: center;
+            margin: 0;
+            margin-bottom: 2rem;
         }
     }
 
@@ -44,7 +47,6 @@ export const Texts = styled.div`
         @media (max-width: 1000px) {
             font-size: 1rem;
             padding-left: 0;
-            padding: 0 1rem;
         }
     }
 

@@ -9,7 +9,6 @@ export const ContentContainer = styled.div`
 
     @media (max-width: 1000px) {
             max-width: 100%;
-            padding: 0;
         }
 
 
