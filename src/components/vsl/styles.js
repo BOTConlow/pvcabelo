@@ -12,6 +12,8 @@ export const VslContent = styled.div`
 
     @media (max-width: 1000px) {
         height: 590px;
+        padding-top: 0;
+        padding: 1rem;
     }
     
 `
@@ -28,7 +30,7 @@ export const Headline = styled.div`
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
         @media (max-width: 1000px) {
-            font-size: .9rem;
+            font-size: 1.2rem;
         }
     }
 `

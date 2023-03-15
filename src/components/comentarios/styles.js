@@ -1,5 +1,46 @@
 import styled from 'styled-components'
 
+export const Response = styled.div`
+
+    padding: 1rem 0;
+
+`
+
+export const Showanswer = styled.div`
+
+    padding-top: .6rem;
+    margin-left: 5rem;
+
+    button {
+        color: #000;
+        display: flex;
+        border: 0;
+        background: transparent;
+    }
+`
+
+export const Answer = styled.div`
+
+    padding-top: 1.6rem;
+    padding-left: 5rem;
+    font-size: .9rem;
+    border-left: 1px solid #000;
+
+`
+
+export const SecondAnswer = styled.div`
+
+    padding-top: 1.6rem;
+    padding-left: 5rem;
+    font-size: .9rem;
+    border-left: 1px solid #000;    
+`
+
+
+
+
+
+
 export const ComentariosContainer = styled.div`
 
     padding: 1.5rem 0;

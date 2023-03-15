@@ -4,6 +4,10 @@ export const BonusContainer = styled.div`
 
     margin-top: 2rem;
 
+    @media (max-width: 1000px) {
+            padding: 0 1rem;
+        }
+
 `
 
 export const Title = styled.div`

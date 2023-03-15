@@ -5,6 +5,7 @@ export const DepoimentosContainer = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 6rem;
     position: relative;
     margin: 3rem 0;
     color: white;
@@ -14,6 +15,7 @@ export const DepoimentosContainer = styled.div`
             align-items: center;
             justify-content: center;
             margin: 0 0 3rem;
+            gap: 0;
             padding: 1rem;
         }
 
