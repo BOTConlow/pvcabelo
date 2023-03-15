@@ -32,6 +32,10 @@ export const BeneficiosContent = styled.div`
     flex-direction: column;
     gap: 4rem;
 
+    @media (max-width: 1000px) {
+            gap: 2rem;
+        }
+
     button {
         font-size: 1.9rem;
 
