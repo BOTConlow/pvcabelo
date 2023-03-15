@@ -4,10 +4,10 @@ import { ChatsCircle, Star } from "phosphor-react";
 import { Button } from "../button";
 
 
-export function GrupoVip() {
+export function GrupoVip({grupoRef}) {
 
     return (
-        <GrupoContainer>
+        <GrupoContainer ref={grupoRef}>
             <Content>
                 <div>
                     <h1>

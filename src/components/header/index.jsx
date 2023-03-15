@@ -2,7 +2,7 @@ import { HeaderContainer, HeaderContents, Contact, Instagram, ButtonContent } fr
 import Logo from '../../assets/LOGO.svg'
 import { List } from "phosphor-react";
 
-export function Header({ chatRef, tratamentosRef, depoimentosRef, draRef }) {
+export function Header({ chatRef, tratamentosRef, depoimentosRef, draRef, grupoRef }) {
 
     const goToRef = (ref) => ref.current?.scrollIntoView({
         behavior: 'smooth',
@@ -51,7 +51,7 @@ export function Header({ chatRef, tratamentosRef, depoimentosRef, draRef }) {
                     SOBRE A DRA.
                 </button>
 
-                <Contact>
+                <Contact onClick={() => goToRef(grupoRef)}>
                     GRUPO VIP
                 </Contact>
 

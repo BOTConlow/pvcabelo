@@ -1,4 +1,4 @@
-import { useRef } from "react"
+import { useEffect, useRef, useState } from "react"
 import { Acesso } from "./components/acesso"
 import { Background } from "./components/backgrounds"
 import { Beneficios } from "./components/beneficios"
@@ -21,7 +21,18 @@ function App() {
   const tratamentosRef = useRef()
   const depoimentosRef = useRef()
   const draRef = useRef()
-  const contatoRef = useRef()
+  const grupoRef = useRef()
+  const [time, setTime] = useState(false)
+
+  useEffect(() => {
+
+    setTimeout(() => {
+
+      setTime(true)
+
+    }, 747000)
+
+  }, [])
 
 
   return (
@@ -30,10 +41,11 @@ function App() {
       <Background bgImage='background2'>
         <Container>
           <Header
-          chatRef={chatRef}
-          tratamentosRef={tratamentosRef}
-          depoimentosRef={depoimentosRef}
-          draRef={draRef}
+            chatRef={chatRef}
+            tratamentosRef={tratamentosRef}
+            depoimentosRef={depoimentosRef}
+            draRef={draRef}
+            grupoRef={grupoRef}
           />
         </Container>
       </Background>
@@ -47,17 +59,17 @@ function App() {
       </Background>
 
       <Container>
-        <Comentarios chatRef={chatRef}/>
+        <Comentarios chatRef={chatRef} />
       </Container>
 
       <Background bgImage='background3'>
         <Container>
-          <Depoimentos depoimentosRef={depoimentosRef}/>
+          <Depoimentos depoimentosRef={depoimentosRef} />
         </Container>
       </Background>
 
       <Container>
-        <Beneficios tratamentosRef={tratamentosRef}/>
+        <Beneficios tratamentosRef={tratamentosRef} />
         <Passos />
       </Container>
 
@@ -68,19 +80,21 @@ function App() {
       </Background>
 
       <Container>
-        <Dermatologista draRef={draRef}/>
+        <Dermatologista draRef={draRef} />
         <Bonus />
       </Container>
 
       <Background bgImage='background3'>
         <Container>
-          <GrupoVip />
+          <GrupoVip grupoRef={grupoRef} />
         </Container>
       </Background>
 
-      <Container>
-        <Quantovale />
-      </Container>
+      {time && <>
+        <Container>
+          <Quantovale />
+        </Container>
+      </>}
 
       <Background bgImage='background3'>
         <Container>

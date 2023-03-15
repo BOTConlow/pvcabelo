@@ -32,7 +32,9 @@ export const Image = styled.div`
     animation: ${rotate} 2.7s infinite alternate;
 
     img {
-        width: 15rem;
+        @media (max-width: 1000px) {
+            width: 15rem;
+        }
     }
 
 `

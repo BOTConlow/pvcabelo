@@ -155,6 +155,11 @@ export function Comentarios({ chatRef }) {
         fetchLocation()
     }, [])
 
+    const removeFeedback = (comment) => {
+        const newArrayComments = comments.filter(commentToRemove => commentToRemove.comment == comment)
+        setComments(newArrayComments)
+    }
+
     const handleAddNewFeedback = () => {
         setComments([
             ...comments,
@@ -163,6 +168,7 @@ export function Comentarios({ chatRef }) {
                 date: new Date()
             }
         ])
+        setComment("")
     }
 
 
@@ -191,11 +197,10 @@ export function Comentarios({ chatRef }) {
                             return (
 
 
-                                <SetFeedback>
+                                <SetFeedback key={comment.comment}>
 
                                     <Feedback>
                                         <ComentarioStruture
-                                            key={comment.comment}
                                             src={Avatar}
                                             title={'Usuário Anônimo'}
                                             desc={comment.comment}
