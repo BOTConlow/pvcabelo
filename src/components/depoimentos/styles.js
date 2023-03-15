@@ -45,6 +45,7 @@ export const Title = styled.div`
         @media (max-width: 1000px) {
             font-size: 1rem;
             padding: 0;
+            margin-bottom: 1rem;
         }
     }
     
