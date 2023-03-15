@@ -19,12 +19,24 @@ export const Showanswer = styled.div`
     }
 `
 
+export const ButtonOpenDesc = styled.button`
+    color: #000;
+    display: flex;
+    border: 0;
+    background: transparent;
+`
+
+
 export const Answer = styled.div`
 
     padding-top: 1.6rem;
     padding-left: 5rem;
     font-size: .9rem;
     border-left: 1px solid #000;
+
+    @media (max-width: 1000px) {
+            padding-left: 2.7rem;
+        }
 
 `
 
@@ -33,7 +45,11 @@ export const SecondAnswer = styled.div`
     padding-top: 1.6rem;
     padding-left: 5rem;
     font-size: .9rem;
-    border-left: 1px solid #000;    
+    border-left: 1px solid #000;
+
+    @media (max-width: 1000px) {
+            padding-left: 2.7rem;
+        }
 `
 
 
@@ -67,7 +83,10 @@ export const ComentariosContent = styled.div`
 export const ComentariosSession = styled.div`
 
     width: 100%;
+    overflow: auto;
+    height: 45rem;
     margin: 2rem 0;
+    padding-right: 1rem;
 
 `
 

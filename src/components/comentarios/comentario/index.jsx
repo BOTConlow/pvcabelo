@@ -45,7 +45,7 @@ export function ComentarioStruture(props) {
                     }
 
                     {
-                        time && <p>há {time}</p>
+                        time && <p>{time}</p>
                     }
                 </Top>
 
