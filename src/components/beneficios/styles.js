@@ -12,6 +12,7 @@ export const BeneficiosContainer = styled.div`
 
     @media (max-width: 1000px) {
         padding: 1rem;
+        margin 0;
     }
 
 
