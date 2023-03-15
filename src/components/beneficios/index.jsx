@@ -4,10 +4,10 @@ import Crescimento from '../../assets/crescimento.jpg'
 import Hidratacao from '../../assets/hidratado.jpg'
 import Pontas from '../../assets/pontas.jpg'
 
-export function Beneficios() {
+export function Beneficios({tratamentosRef}) {
 
     return (
-        <BeneficiosContainer>
+        <BeneficiosContainer  ref={tratamentosRef}>
             <h1>
                 O que o <span style={{ color: '#573333' }}>Cronograma Capilar</span> pode fazer por você?
             </h1>

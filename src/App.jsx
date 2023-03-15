@@ -1,3 +1,4 @@
+import { useRef } from "react"
 import { Acesso } from "./components/acesso"
 import { Background } from "./components/backgrounds"
 import { Beneficios } from "./components/beneficios"
@@ -16,12 +17,24 @@ import { Container } from "./styles/app.styles"
 
 function App() {
 
+  const chatRef = useRef()
+  const tratamentosRef = useRef()
+  const depoimentosRef = useRef()
+  const draRef = useRef()
+  const contatoRef = useRef()
+
+
   return (
     <div>
 
       <Background bgImage='background2'>
         <Container>
-          <Header />
+          <Header
+          chatRef={chatRef}
+          tratamentosRef={tratamentosRef}
+          depoimentosRef={depoimentosRef}
+          draRef={draRef}
+          />
         </Container>
       </Background>
 
@@ -34,17 +47,17 @@ function App() {
       </Background>
 
       <Container>
-        <Comentarios />
+        <Comentarios chatRef={chatRef}/>
       </Container>
 
       <Background bgImage='background3'>
         <Container>
-          <Depoimentos />
+          <Depoimentos depoimentosRef={depoimentosRef}/>
         </Container>
       </Background>
 
       <Container>
-        <Beneficios />
+        <Beneficios tratamentosRef={tratamentosRef}/>
         <Passos />
       </Container>
 
@@ -55,7 +68,7 @@ function App() {
       </Background>
 
       <Container>
-        <Dermatologista />
+        <Dermatologista draRef={draRef}/>
         <Bonus />
       </Container>
 

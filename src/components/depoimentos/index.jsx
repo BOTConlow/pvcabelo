@@ -12,7 +12,7 @@ import Dep7 from '../../assets/dep7.jpg'
 import Dep8 from '../../assets/dep8.jpg'
 import Dep9 from '../../assets/dep9.jpg'
 
-export function Depoimentos() {
+export function Depoimentos({depoimentosRef}) {
 
     const settings = {
         dots: false,
@@ -24,11 +24,10 @@ export function Depoimentos() {
         speed: 1300,
         autoplaySpeed: 7000,
         cssEase: "linear",
-        arrows: false
     };
 
     return (
-        <DepoimentosContainer>
+        <DepoimentosContainer ref={depoimentosRef}>
             <Title>
                 <h1>
                     <span style={{ color: '#fadabb' }}>Não acredite</span> apenas nas nossas palavras

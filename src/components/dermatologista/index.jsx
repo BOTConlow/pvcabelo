@@ -3,10 +3,10 @@ import { DermatoContainer, Promocao, Texts } from './styles'
 import { Button } from "../button";
 
 
-export function Dermatologista(dermatoRef) {
+export function Dermatologista({draRef}) {
 
     return (
-        <DermatoContainer>
+        <DermatoContainer ref={draRef}>
             <Texts>
                 <div>
                     <h1>

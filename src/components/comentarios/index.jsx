@@ -5,6 +5,33 @@ import { formatDistanceToNow } from 'date-fns';
 import ptBR from 'date-fns/locale/pt-BR';
 import Avatar from '../../assets/avatar.webp'
 import { useEffect, useState } from "react";
+import Perfil1 from '../../assets/perfil1.webp'
+import Perfil2 from '../../assets/perfil2.webp'
+import Perfil3 from '../../assets/perfil3.webp'
+import Perfil4 from '../../assets/perfil4.webp'
+import Perfil5 from '../../assets/perfil5.webp'
+import Perfil6 from '../../assets/perfil6.webp'
+import Perfil7 from '../../assets/perfil7.webp'
+import Perfil8 from '../../assets/perfil8.webp'
+import Perfil9 from '../../assets/perfil9.webp'
+import Perfil10 from '../../assets/perfil10.webp'
+import Perfil11 from '../../assets/perfil11.webp'
+import Perfil12 from '../../assets/perfil12.webp'
+import Perfil13 from '../../assets/perfil13.webp'
+import Perfil14 from '../../assets/perfil14.webp'
+import Perfil15 from '../../assets/perfil15.webp'
+import Perfil16 from '../../assets/perfil16.webp'
+import Perfil17 from '../../assets/perfil17.webp'
+import Perfil18 from '../../assets/perfil18.webp'
+import Perfil19 from '../../assets/perfil19.webp'
+import Perfil20 from '../../assets/perfil20.webp'
+import Perfil21 from '../../assets/perfil21.webp'
+import Perfil22 from '../../assets/perfil22.webp'
+import Perfil23 from '../../assets/perfil23.webp'
+import Perfil24 from '../../assets/perfil24.webp'
+import Perfil25 from '../../assets/perfil25.webp'
+import Perfil26 from '../../assets/perfil26.webp'
+import Perfil27 from '../../assets/perfil27.webp'
 
 
 export function DepoimentoBoxFinal(props) {
@@ -44,7 +71,7 @@ export function DepoimentoBoxFinal(props) {
 
 }
 
-export function Comentarios({ ref }) {
+export function Comentarios({ chatRef }) {
 
     const [comment, setComment] = useState('')
     const [comments, setComments] = useState([])
@@ -141,7 +168,7 @@ export function Comentarios({ ref }) {
 
     return (
 
-        <ComentariosContainer>
+        <ComentariosContainer ref={chatRef}>
 
             <Title>
                 <h1>
@@ -191,7 +218,7 @@ export function Comentarios({ ref }) {
 
                     {time5 &&
                         <DepoimentoBoxFinal
-                            src={Avatar}
+                            src={Perfil1}
                             title={'Debora Souzine'}
                             desc={'Estava esperando por isso a anooooos!! mt obgdaaaaaa, acho que foi o destino cair aqui, vou comprar agora!'}
                             time={formatDistanceToNow(date5, {
@@ -203,7 +230,7 @@ export function Comentarios({ ref }) {
 
                     {time4 &&
                         <DepoimentoBoxFinal
-                            src={Avatar}
+                            src={Perfil2}
                             title={'Helena Costa'}
                             desc={'Eu usei roacutan como última alternativa depois de 4 anos sofrendo com acne severa. rémedio super pesado q amenizou as acnes mas me criou muitos problemas, ele tem muitos efeitos colaterais. Porém após minha gestação voltei a ter acne, mas em 4 semanas usando esse método voltei a ter o rosto limpo novamente. MUITO OBRIGADA DRA!'}
                             time={formatDistanceToNow(date4, {
@@ -215,7 +242,7 @@ export function Comentarios({ ref }) {
 
                     {time3 &&
                         <DepoimentoBoxFinal
-                            src={Avatar}
+                            src={Perfil3}
                             title={'Roberta Paixão'}
                             desc={'Enviar esse vídeo e marcar os salões da minha cidade pra ver se aprendem alguma coisa, pois eles só sabem passar hidratação, shampoos e condicionadoes caros e não resolvem o problema e ficamos refém deles, parabéns doutora excelente método, com certeza ajudou muito a todos nós 👏👏'}
                             time={formatDistanceToNow(date3, {
@@ -227,7 +254,7 @@ export function Comentarios({ ref }) {
 
                     {time2 &&
                         <DepoimentoBoxFinal
-                            src={Avatar}
+                            src={Perfil4}
                             title={'Barbara Souza'}
                             desc={'eu assisti esse vídeo meses atrás e tô voltando aqui agora pra agradecer, meu cabelo sempre foi ressecado e quebradiço, por isso nunca conseugi deixar ele muito grande, se não fosse por você eu ainda estaria estaria assim, sou MUITO grata porque agora finalmente eu consigo me olhar no espelho e me achar bonita, só nós mulheres entendemos como isso nos afeta'}
                             time={formatDistanceToNow(date2, {
@@ -239,7 +266,7 @@ export function Comentarios({ ref }) {
 
                     {time1 &&
                         <DepoimentoBoxFinal
-                            src={Avatar}
+                            src={Perfil5}
                             title={'Angela Cristo'}
                             desc={'Depois desse vídeo minha vida mudou do dia pra noite!! Obrigada pelo protocolo Paula... Deus te abençoe'}
                             time={formatDistanceToNow(date1, {
@@ -250,7 +277,7 @@ export function Comentarios({ ref }) {
                     }
 
                     <DepoimentoBoxFinal
-                        src={Avatar}
+                        src={Perfil6}
                         title={'Rafaela Borges'}
                         desc={'Eu já ia fechar a página, ainda bem que assisti até o final! Obrigada pelo protocolo Paula'}
                         time={'1 hora'}
@@ -260,7 +287,7 @@ export function Comentarios({ ref }) {
                     >
                         <Answer>
                             <ComentarioStruture
-                                src={Avatar}
+                                src={Perfil7}
                                 title={'Bainca Correia'}
                                 desc={'kkkkkkk eu também estava quase fechando, ufaa'}
                                 time={'1 hora'}
@@ -270,7 +297,7 @@ export function Comentarios({ ref }) {
                     </DepoimentoBoxFinal>
 
                     <DepoimentoBoxFinal
-                        src={Avatar}
+                        src={Perfil8}
                         title={'Brenda Marques'}
                         desc={`Alguém aí de ${location.city == 'undefined' ? 'São Paulo' : location.city} que já testou pode me dizer se funciona?`}
                         time={'2 horas'}
@@ -282,7 +309,7 @@ export function Comentarios({ ref }) {
 
                             <Answer>
                                 <ComentarioStruture
-                                    src={Avatar}
+                                    src={Perfil9}
                                     title={'Julia Campos'}
                                     desc={`oii Brenda, siim eu sou de ${location.city} tmb. Tava desconfiada mas testei e funcionou sim!`}
                                     time={'1 hora'}
@@ -291,7 +318,7 @@ export function Comentarios({ ref }) {
                             </Answer>
                             <SecondAnswer>
                                 <ComentarioStruture
-                                    src={Avatar}
+                                    src={Perfil10}
                                     title={'Brenda Marques'}
                                     desc={'Obgdaa!! Vou testar então'}
                                     time={'1 hora'}
@@ -304,7 +331,7 @@ export function Comentarios({ ref }) {
                     </DepoimentoBoxFinal>
 
                     <DepoimentoBoxFinal
-                        src={Avatar}
+                        src={Perfil11}
                         title={'Marcela Rodrigues'}
                         desc={'Melhor escolha da minha vida, meu cabelo está crescendo muito, to amando o resultado, já senti diferença na primeira semana, incrível!!'}
                         time={'3 horas'}
@@ -312,7 +339,7 @@ export function Comentarios({ ref }) {
                     />
 
                     <DepoimentoBoxFinal
-                        src={Avatar}
+                        src={Perfil12}
                         title={'Josiane Moraes'}
                         desc={'Vi muita gente comentando e compartilhando, deve funcionar'}
                         time={'5 horas'}
@@ -321,7 +348,7 @@ export function Comentarios({ ref }) {
 
 
                     <DepoimentoBoxFinal
-                        src={Avatar}
+                        src={Perfil13}
                         title={'Renata Rios'}
                         desc={'Recomendo, duas semanas de uso e meu cabelo já cresceu'}
                         time={'7 horas'}
@@ -333,7 +360,7 @@ export function Comentarios({ ref }) {
 
                             <Answer>
                                 <ComentarioStruture
-                                    src={Avatar}
+                                    src={Perfil14}
                                     title={'Julia Campos'}
                                     desc={'Sério???'}
                                     time={'7 horas'}
@@ -342,7 +369,7 @@ export function Comentarios({ ref }) {
                             </Answer>
                             <SecondAnswer>
                                 <ComentarioStruture
-                                    src={Avatar}
+                                    src={Perfil15}
                                     title={'Paula R.'}
                                     desc={'Funciona mesmo??'}
                                     time={'6 horas'}
@@ -351,7 +378,7 @@ export function Comentarios({ ref }) {
                             </SecondAnswer>
                             <SecondAnswer>
                                 <ComentarioStruture
-                                    src={Avatar}
+                                    src={Perfil16}
                                     title={'Renata Rios'}
                                     desc={'SIM!! podem confiar'}
                                     time={'4 horas'}
@@ -360,7 +387,7 @@ export function Comentarios({ ref }) {
                             </SecondAnswer>
                             <SecondAnswer>
                                 <ComentarioStruture
-                                    src={Avatar}
+                                    src={Perfil17}
                                     title={'Ivete Fernandes'}
                                     desc={'vou usar então, não aguento mais sofrer com isso, meu cabelo está muito quebradiço'}
                                     time={'3 horas'}
@@ -369,7 +396,7 @@ export function Comentarios({ ref }) {
                             </SecondAnswer>
                             <SecondAnswer>
                                 <ComentarioStruture
-                                    src={Avatar}
+                                    src={Perfil18}
                                     title={'Renata Rios'}
                                     desc={'Podem confiar, já notei diferença, e ainda to na segunda semana!'}
                                     time={'1 hora'}
@@ -381,7 +408,7 @@ export function Comentarios({ ref }) {
                     </DepoimentoBoxFinal>
 
                     <DepoimentoBoxFinal
-                        src={Avatar}
+                        src={Perfil19}
                         title={'Barbara Oliveira'}
                         desc={'Meninaaas que cronograma é esse, meu cabelo é completamente outro kkk. Só a gente sabe como isso afeta nossa autoestima'}
                         time={'8 horas'}
@@ -389,7 +416,7 @@ export function Comentarios({ ref }) {
                     />
 
                     <DepoimentoBoxFinal
-                        src={Avatar}
+                        src={Perfil20}
                         title={'Cristiane Vargas'}
                         desc={'Eu sou de Manaus e funcionou muito bem nessa região úmida, tanto eu como minha cunhada tinhamos o cabelo muito ressecado, seguimos o passo a passo do cronograma e tivemos resultados bem rápido, e olha que antes disso eu e ela já tinhamos gastado muito dinheiro e nada funcionava!!'}
                         time={'10 horas'}
@@ -399,7 +426,7 @@ export function Comentarios({ ref }) {
                     >
                         <Answer>
                             <ComentarioStruture
-                                src={Avatar}
+                                src={Perfil21}
                                 title={'Gabriela Fogaça'}
                                 desc={`Mesmo aqui em ${location.city} o método funciona, faz 2 meses q testei o método e meu cabelo nunca foi tão grande`}
                                 time={'8 horas'}
@@ -408,7 +435,7 @@ export function Comentarios({ ref }) {
                         </Answer>
                         <SecondAnswer>
                             <ComentarioStruture
-                                src={Avatar}
+                                src={Perfil22}
                                 title={'Miriam Costa'}
                                 desc={'Aqui em Brasília tb funcionou muito bem, apesar da secura da região. Estou a um mês usando o cronograma. Só gratidão'}
                                 time={'4 horas'}
@@ -418,7 +445,7 @@ export function Comentarios({ ref }) {
                     </DepoimentoBoxFinal>
 
                     <DepoimentoBoxFinal
-                        src={Avatar}
+                        src={Perfil23}
                         title={'Andreia Lima'}
                         desc={'Coitado de quem ainda não descobriu esse cronograma kakakaka vai sofrer o resto da vida '}
                         time={'11 horas'}
@@ -426,7 +453,7 @@ export function Comentarios({ ref }) {
                     />
 
                     <DepoimentoBoxFinal
-                        src={Avatar}
+                        src={Perfil24}
                         title={'Luciana Oliveira'}
                         desc={'Estou sofrendo com o cabelo quebradiço. Tenho 29 anos, de um tempo pra cá meu cabelo vive quebrando e está muito ressecado. Ja tentei resolver isso com vários tipos de hidratação, condicionadores caros mas não funcionou, mas só duas semanas aplicando esse cronograma já percebi uma melhroa significativa'}
                         time={'13 horas'}
@@ -435,7 +462,7 @@ export function Comentarios({ ref }) {
                     </DepoimentoBoxFinal>
 
                     <DepoimentoBoxFinal
-                        src={Avatar}
+                        src={Perfil25}
                         title={'Sara Moscato'}
                         desc={'De cara não ia testar esse cronograma, ainda bem que decidi dar essa chance, pois já tinha tentado de tudo e nada funcionava, achei que esse fosse mais um daqueles produtos que prometem ser milagrosos mas não funcionam'}
                         time={'13 horas'}
@@ -445,7 +472,7 @@ export function Comentarios({ ref }) {
                     >
                         <Answer>
                             <ComentarioStruture
-                                src={Avatar}
+                                src={Perfil26}
                                 title={'Graciele Serra'}
                                 desc={'Mas funciona mesmo????'}
                                 time={'9 horas'}
@@ -454,7 +481,7 @@ export function Comentarios({ ref }) {
                         </Answer>
                         <SecondAnswer>
                             <ComentarioStruture
-                                src={Avatar}
+                                src={Perfil27}
                                 title={'Sara Moscato'}
                                 desc={'Sim, pode confiar! Já tive um bom resultado em poucas semanas.'}
                                 time={'7 horas'}
