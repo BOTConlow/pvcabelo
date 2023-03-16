@@ -76,4 +76,9 @@ export const Desc = styled.div`
     font-size: 1.5rem;
     height: 5.7rem; 
 
+    @media (max-width: 1000px) {
+        height: 13rem; 
+
+        }
+
 `

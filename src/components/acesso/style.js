@@ -11,7 +11,7 @@ export const AcessoContainer = styled.div`
 
     @media (max-width: 1000px) {
             flex-direction: column;
-            gap: 2rem;
+            gap: 2.5rem;
         }
 
 `
