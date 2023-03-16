@@ -44,7 +44,7 @@ export const Content = styled.div`
 
     @media (max-width: 1000px) {
             flex-direction: column;
-            margin-bottom: 1rem;
+            margin-bottom: 0;
             gap: 2rem;
         }
 
