@@ -10,7 +10,7 @@ import Dep5 from '../../assets/dep5.jpg'
 import Dep6 from '../../assets/dep6.jpg'
 import Dep7 from '../../assets/dep7.jpg'
 import Dep8 from '../../assets/dep8.jpg'
-import Dep9 from '../../assets/dep9.jpg'
+import Dep9 from '../../assets/dep9.webp'
 
 export function Depoimentos({depoimentosRef}) {
 
