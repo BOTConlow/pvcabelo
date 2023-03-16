@@ -10,7 +10,7 @@ export const VslContent = styled.div`
     align-items: center;
 
     @media (max-width: 1000px) {
-        height: 590px;
+        height: 530px;
         padding-top: 0;
         padding: 1rem;
     }
@@ -45,6 +45,7 @@ export const Content = styled.div`
     @media (max-width: 1000px) {
             flex-direction: column;
             margin-bottom: 1rem;
+            gap: 2rem;
         }
 
 `
