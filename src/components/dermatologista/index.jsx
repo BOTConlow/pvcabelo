@@ -3,7 +3,7 @@ import { DermatoContainer, Promocao, Texts } from './styles'
 import { Button } from "../button";
 
 
-export function Dermatologista({draRef}) {
+export function Dermatologista({ draRef }) {
 
     return (
         <DermatoContainer ref={draRef}>
@@ -16,17 +16,17 @@ export function Dermatologista({draRef}) {
                         <span style={{ color: '#c9ae95' }}><b>Dra. PAULA ANDRADE</b></span>
                     </p>
                     <p>
-                        Dermatologista e Criadora do Protoclo Pele Perfeita, Membro da Sociedade Brasileira de Dermatologia, com anos de experiência e especializações em Longevidade Saudável, Fitoterapia e Medicina Quântica, incluindo a última tecnologia de peptídeos anti-acnes, a Doutora Karina Costa é considerada uma das melhores do Brasil na luta contra as acnes.
+                        A tricologia é uma especialidade médica que trata de problemas relacionados ao couro cabeludo e cabelo. Com anos de experiência e especialização, a Dra. Paula Andrade é uma renomada médica tricologista, formada pela Faculdade de Medicina da Universidade de São Paulo (USP) e membro da Sociedade Brasileira de Tricologia.
                     </p>
                     <p>
-                        "Eu desenvolvi o Protocolo Pele Perfeita com objetivo principal de ajudar as pessoas. Confie na minha experiência e especialização e experimente o Protocolo Pele Perfeita. Sua pele merece o melhor, e essa é a solução definitiva para isso."
+                        "Eu desenvolvi o Fórmula Cronograma Capilar com objetivo principal de ajudar as pessoas. Confie na minha experiência e especialização e experimente o Fórmula Cronograma Capilar. Seu cabelo merece o melhor, e essa é a solução definitiva para isso."
                     </p>
                 </div>
                 <img
                     src={Dermato}
                 />
             </Texts>
-            <Promocao> 
+            <Promocao>
                 <p>
                     FAÇA SUA INSCRIÇÃO E COMECE HOJE MESMO
                 </p>
@@ -39,8 +39,8 @@ export function Dermatologista({draRef}) {
                 <h2>
                     <u>Promoção expira em 1 semana!</u>
                 </h2>
-                <Button 
-                title='SIM, QUERO COMEÇAR AGORA!'
+                <Button
+                    title='SIM, QUERO COMEÇAR AGORA!'
                 />
             </Promocao>
         </DermatoContainer>

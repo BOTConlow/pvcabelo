@@ -1,6 +1,9 @@
 import { BonusContainer, Box, BoxContent, Content, Title } from "./styles";
-import Ebook from '../../assets/guia.webp'
 import { Button2 } from "../button";
+import Bonus1 from '../../assets/bonus1.webp'
+import Bonus2 from '../../assets/bonus2.webp'
+import Bonus3 from '../../assets/bonus3.webp'
+import Vip from '../../assets/vip.webp'
 
 
 export function Bonus() {
@@ -19,27 +22,27 @@ export function Bonus() {
                 <Box>
                     <BoxContent>
                         <img
-                            src={Ebook}
+                            src={Bonus1}
                         />
                         <div>
                             <h1>
-                                Detox Zero Acne
+                                Esquema Reconstrução Capilar
                             </h1>
                             <p>
-                                Transforme sua pele com os poderes desintoxicantes dos nossos sucos detox para acne. Com ingredientes naturais perfeitos para retirar as toxinas causadoras da acne no seu organismo.
+                                Transforme seu cabelo com nossas poderosas receitas com ação reconstrutora capilar. Desenvolvido com ingredientes naturais e testado dermatológicamente, esse produto é perfeito para restaurar a saúde dos fios danificados por processos químicos, calor excessivo ou outros fatores.
                             </p>
                         </div>
                     </BoxContent>
                     <BoxContent>
                         <img
-                            src={Ebook}
+                            src={Bonus2}
                         />
                         <div>
                             <h1>
-                                Detox Zero Acne
+                                Prevenção Capilar
                             </h1>
                             <p>
-                                Transforme sua pele com os poderes desintoxicantes dos nossos sucos detox para acne. Com ingredientes naturais perfeitos para retirar as toxinas causadoras da acne no seu organismo.
+                                Proteja seu cabelo contra os danos causados pela chapinha e tonalizantes com o nosso poderoso produto de prevenção capilar. Desenvolvido com técnicas exclusivas, esse produto é perfeito para manter seus fios saudáveis e protegidos.
                             </p>
                         </div>
                     </BoxContent>
@@ -47,27 +50,27 @@ export function Bonus() {
                 <Box>
                     <BoxContent>
                         <img
-                            src={Ebook}
+                            src={Bonus3}
                         />
                         <div>
                             <h1>
-                                Detox Zero Acne
+                                Guia Rádio
                             </h1>
                             <p>
-                                Transforme sua pele com os poderes desintoxicantes dos nossos sucos detox para acne. Com ingredientes naturais perfeitos para retirar as toxinas causadoras da acne no seu organismo.
+                                Acabe de vez com o frizz e as pontas duplas com o nosso poderoso produto de tratamento capilar. Desenvolvido com receitas fáceis e naturais, esse produto é perfeito para acabar com esses problemas que tanto incomodam.
                             </p>
                         </div>
                     </BoxContent>
                     <BoxContent>
                         <img
-                            src={Ebook}
+                            src={Vip}
                         />
                         <div>
-                            <h1>
-                                Detox Zero Acne
+                            <h1 style={{ maxWidth: '16rem' }}>
+                                Suporte E Motivação No Grupo Vip
                             </h1>
                             <p>
-                                Transforme sua pele com os poderes desintoxicantes dos nossos sucos detox para acne. Com ingredientes naturais perfeitos para retirar as toxinas causadoras da acne no seu organismo.
+                                Toda a ajuda e motivação que você precisa para se manter focada no seu objetivo.
                             </p>
                         </div>
                     </BoxContent>

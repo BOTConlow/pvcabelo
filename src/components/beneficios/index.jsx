@@ -1,8 +1,8 @@
 import { BeneficiosContainer, BeneficiosContent, Box, Content, Background, Title } from "./styles";
 import { Button } from "../button";
-import Crescimento from '../../assets/crescimento.jpg'
-import Hidratacao from '../../assets/hidratado.jpg'
-import Pontas from '../../assets/pontas.jpg'
+import Crescimento from '../../assets/crescimento.webp'
+import Hidratacao from '../../assets/hidratado.webp'
+import Pontas from '../../assets/pontas.webp'
 
 export function Beneficios({tratamentosRef}) {
 

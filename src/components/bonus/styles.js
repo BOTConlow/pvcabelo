@@ -81,6 +81,7 @@ export const Box = styled.div`
 export const BoxContent = styled.div`
 
     width: 34rem;
+    height: 13rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,6 +93,7 @@ export const BoxContent = styled.div`
     @media (max-width: 1000px) {
             flex-direction: column;
             width: 17rem;
+            height: auto;
             gap: 1.5rem;
             text-align: center;
         }

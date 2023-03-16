@@ -237,7 +237,7 @@ export function Comentarios({ chatRef }) {
                         <DepoimentoBoxFinal
                             src={Perfil2}
                             title={'Helena Costa'}
-                            desc={'Eu usei roacutan como última alternativa depois de 4 anos sofrendo com acne severa. rémedio super pesado q amenizou as acnes mas me criou muitos problemas, ele tem muitos efeitos colaterais. Porém após minha gestação voltei a ter acne, mas em 4 semanas usando esse método voltei a ter o rosto limpo novamente. MUITO OBRIGADA DRA!'}
+                            desc={'Cronograma capilar é VIDAAA! Simplesmente apaixonada no meu cabelo crescendo! Meu cabelo caia muito e não tinha vida e agora está super saudável Meninas da pra cuidar dos cabelos em casa SIM, é preciso ter muita dedicação e amor que dá certo e eu sou a prova disso..'}
                             time={formatDistanceToNow(date4, {
                                 locale: ptBR,
                             })}
@@ -249,7 +249,7 @@ export function Comentarios({ chatRef }) {
                         <DepoimentoBoxFinal
                             src={Perfil3}
                             title={'Roberta Paixão'}
-                            desc={'Enviar esse vídeo e marcar os salões da minha cidade pra ver se aprendem alguma coisa, pois eles só sabem passar hidratação, shampoos e condicionadoes caros e não resolvem o problema e ficamos refém deles, parabéns doutora excelente método, com certeza ajudou muito a todos nós 👏👏'}
+                            desc={'Enviar esse vídeo e marcar as tricologistas da minha cidade pra ver se aprendem alguma coisa, pois eles só sabem passar hidratação, shampoos e condicionadoes caros e não resolvem o problema e ficamos refém deles, parabéns doutora excelente método, com certeza ajudou muito a todos nós 👏👏'}
                             time={formatDistanceToNow(date3, {
                                 locale: ptBR,
                             })}
@@ -273,7 +273,7 @@ export function Comentarios({ chatRef }) {
                         <DepoimentoBoxFinal
                             src={Perfil5}
                             title={'Angela Cristo'}
-                            desc={'Depois desse vídeo minha vida mudou do dia pra noite!! Obrigada pelo protocolo Paula... Deus te abençoe'}
+                            desc={'Depois desse vídeo minha vida mudou do dia pra noite!! Obrigada pelo cronograma Paula... Deus te abençoe'}
                             time={formatDistanceToNow(date1, {
                                 locale: ptBR,
                             })}
@@ -284,7 +284,7 @@ export function Comentarios({ chatRef }) {
                     <DepoimentoBoxFinal
                         src={Perfil6}
                         title={'Rafaela Borges'}
-                        desc={'Eu já ia fechar a página, ainda bem que assisti até o final! Obrigada pelo protocolo Paula'}
+                        desc={'Eu já ia fechar a página, ainda bem que assisti até o final! Obrigada pelo cronograma Paula'}
                         time={'1 hora'}
                         ammount={49}
                         haveAnswer
@@ -460,7 +460,7 @@ export function Comentarios({ chatRef }) {
                     <DepoimentoBoxFinal
                         src={Perfil24}
                         title={'Luciana Oliveira'}
-                        desc={'Estou sofrendo com o cabelo quebradiço. Tenho 29 anos, de um tempo pra cá meu cabelo vive quebrando e está muito ressecado. Ja tentei resolver isso com vários tipos de hidratação, condicionadores caros mas não funcionou, mas só duas semanas aplicando esse cronograma já percebi uma melhroa significativa'}
+                        desc={'Super apaixonada, meu cabelo ficou mega hidratado e super brilhoso, fui em uma reunião no domingo a noite e muitos perguntaram o que eu tinha feito no cabelo que estava tão brilhoso...'}
                         time={'13 horas'}
                         ammount={102}
                     >
