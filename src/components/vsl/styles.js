@@ -11,6 +11,11 @@ export const VslContent = styled.div`
 
     button {
         margin-top: 3.5rem;
+
+        @media (max-width: 1000px) {
+            margin-top: 1rem;
+
+    }
     }
 
     @media (max-width: 1000px) {
