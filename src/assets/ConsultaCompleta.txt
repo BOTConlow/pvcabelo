@@ -1,0 +1,86 @@
++-----------------+-------------------------------------------------+
+| Dados Basicos   | 0                                               |
+|-----------------+-------------------------------------------------|
+| Nome            | NOESIO LIMA DO NASCIMENTO                       |
+| CPF             | 11073298841                                     |
+| Nascimento      | 04/07/1968                                      |
+| Idade           | 54                                              |
+| Situacao        | REGULAR                                         |
+| Mae             | LUCIA LIMA DO NASCIMENTO                        |
+| Pai             | JOAQUIM JOSE DO NSCIMENTO                       |
+| Relacionamento  | SOLTEIRO                                        |
+| Trabalho        | PROFESSORES DE NÍVEL MÉDIO NA EDUCAÇÃO INFANTIL |
+| Renda           | 1214.22                                         |
+| Signo           | CANCER                                          |
+| RG              | 21166196                                        |
+| RG-UF           | SP                                              |
+| RG-Emissor      | OUT - OUTROS EMISSORES                          |
+| RG-Data         | 24/01/2011                                      |
+| CNS             | 703104698026790                                 |
++-----------------+-------------------------------------------------+
++------------+-----------------------------+-------------+--------------+
+|   Parentes | Nome                        |         CPF | Parentesco   |
+|------------+-----------------------------+-------------+--------------|
+|          0 | ANESIO JOSE DO NASCIMENTO   | 01538162873 | IRMA(O)      |
+|          1 | ROSEMIRA LIMA DO NASCIMENTO | 10029586879 | IRMA(O)      |
+|          2 | LUCIA LIMA DO NASCIMENTO    | 20667184830 | MAE          |
+|          3 | ADEZIO LIMA DO NASCIMENTO   | 13714717897 | IRMA(O)      |
++------------+-----------------------------+-------------+--------------+
++------------+-------------+---------------------------------+------------------------------------+---------------------------+--------------------------+-------------------+----------+-----------------+------------+---------------+-------------+---------------------------------------------+--------+---------------+-----------------+
+|   Vizinhos |         CPF | Nome                            | Mae                                | Pai                       | EnderecoMuni             | Logradouro        |   Numero | Bairro          | CEP        | Telefone      | RG          | Emissor                                     | RgUF   | DataEmissao   |             CNS |
+|------------+-------------+---------------------------------+------------------------------------+---------------------------+--------------------------+-------------------+----------+-----------------+------------+---------------+-------------+---------------------------------------------+--------+---------------+-----------------|
+|          0 | 00241174805 | Maria Margarida Pinas Rodrigues | MARIA JOSE DA SILVA PINAS          | URBANO FIDEL PINÃS BAZAGA | PRESIDENTE PRUDENTE - SP | JULIO PERUCHE     |      725 | JARDIM MARACANA | 19.026-260 | 18:3906-4023  | 9419507     | SSP - SSP - SECRETARIA DE SEGURANCA PUBLICA | SP     | 171774000000  | 705004059936850 |
+|          1 | 00668558881 | Nivaldo Carlos Tosta            | PEDRINA SOARES TOSTA               | ELIAS CARLOS TOSTA        | PRESIDENTE PRUDENTE - SP | JULIO PERUCHE     |      348 | JARDIM MARACANA | 19.026-260 | 18:3907-2233  | 9537778     | SSP - SSP - SECRETARIA DE SEGURANCA PUBLICA | SP     | 656823600000  | 702805622080766 |
+|          2 | 00705925862 | Agda da Silva                   | SEBASTIANA PEREIRA                 | SEM INFORMAÇÃO            | PRESIDENTE PRUDENTE - SP | JULIO PERUCHE     |      725 | JARDIM MARACANA | 19.026-260 | 18:98190-7396 | 00054018079 | SSP - SSP - SECRETARIA DE SEGURANCA PUBLICA | SP     | 963802800000  | 705308467867690 |
+|          3 | 00871333180 | Jill Vaz Passos Correa          | CLEUZA VAZ DA COSTA PASSOS         | VALDECI PEREIRA PASSOS    | PRESIDENTE PRUDENTE - SP | JULIO PERUCHE     |      725 | JARDIM MARACANA | 19.026-260 | 18:98159-7798 | 4375217     | SSP - SSP - SECRETARIA DE SEGURANCA PUBLICA | GO     | 994820400000  | 700809912608485 |
+|          4 | 00999933418 | Angela Araujo Mendes            | FRANCISCA DAS CHAGAS ARAUJO MENDES | SEM INFORMAÇÃO            | PRESIDENTE PRUDENTE - SP | RUA JULIO PERUCHE |      725 | JD MARACANA     | 19.026-260 |               |             |                                             |        |               | 706006876024346 |
+|          5 | 01627348913 | Rosa Elena Camilo               | JOANA DE FATIMA DOS SANTOS CAMILO  | SEM INFORMAÇÃO            | PRESIDENTE PRUDENTE - SP | JULIO PERUCHE     |      357 | JARDIM MARACANA | 19.026-260 | 69:98111-5936 |             |                                             |        |               | 702808198570768 |
+|          6 | 01751871347 | Carlinda Fonseca dos Santos     | ESMERALDINA SILVA FONSECA          | SEM INFORMAÇÃO            | PRESIDENTE PRUDENTE - SP | JULIO PERUCHE     |      725 | JARDIM MARACANA | 19.026-260 | 18:99711-1815 |             |                                             |        |               | 702309168527711 |
+|          7 | 01753997860 | Mario Luis Moreira de Campos    | APARECIDA RODRIGUES CAMPOS         | DURVALINO MOREI           | PRESIDENTE PRUDENTE - SP | JULIO PERUCHE     |      417 | JARDIM MARACANA | 19.026-260 | 61:3315-2425  | 13257122    | SSP - SSP - SECRETARIA DE SEGURANCA PUBLICA | SP     | 277959600000  | 700000599423204 |
+|          8 | 01760894893 | Maria Gomes Pereira             | ANA GOMES PEREIRA                  | JJOSE JOAQUIM PEREIRA     | PRESIDENTE PRUDENTE - SP | JULIO PERUCHE     |      725 | JARDIM MARACANA | 19.026-260 | 18:3906-4988  | 8991293     | SSP - SSP - SECRETARIA DE SEGURANCA PUBLICA | SP     | 158554800000  | 702501394854435 |
++------------+-------------+---------------------------------+------------------------------------+---------------------------+--------------------------+-------------------+----------+-----------------+------------+---------------+-------------+---------------------------------------------+--------+---------------+-----------------+
++--------------------+-------------+------+----------------------------+---------------+--------------------------+----------+---------------+------------------------------+-----------+--------------+
+|   Telefones no CPF |    Telefone | UF   | Nome                       |           CPF | Endereco                 |   Numero | Complemento   | Bairro                       | CEP       | Operadora    |
+|--------------------+-------------+------+----------------------------+---------------+--------------------------+----------+---------------+------------------------------+-----------+--------------|
+|                  0 | 18997873170 | SP   | NOESIO  LIMA DO NASCIMENTO |   1.10733e+10 | R JOSE FRANCISCO CANDIDO |       63 |               | PARQUE RESIDENCIAL SAO LUCAS | 19025-300 | VIVO         |
+|                  1 |  1833711869 | nan  | nan                        | nan           | nan                      |      nan | nan           | nan                          | nan       | Desconhecida |
+|                  2 |  8333713270 | nan  | nan                        | nan           | nan                      |      nan | nan           | nan                          | nan       | Desconhecida |
+|                  3 |  1833713270 | nan  | nan                        | nan           | nan                      |      nan | nan           | nan                          | nan       | Desconhecida |
+|                  4 | 18997328801 | nan  | nan                        | nan           | nan                      |      nan | nan           | nan                          | nan       | Vivo         |
+|                  5 |  1832225637 | nan  | nan                        | nan           | nan                      |      nan | nan           | nan                          | nan       | Desconhecida |
+|                  6 |  1833713372 | nan  | nan                        | nan           | nan                      |      nan | nan           | nan                          | nan       | Desconhecida |
+|                  7 | 18996242956 | nan  | nan                        | nan           | nan                      |      nan | nan           | nan                          | nan       | Vivo         |
+|                  8 | 18997817250 | nan  | nan                        | nan           | nan                      |      nan | nan           | nan                          | nan       | Vivo         |
+|                  9 | 18997854012 | nan  | nan                        | nan           | nan                      |      nan | nan           | nan                          | nan       | Vivo         |
++--------------------+-------------+------+----------------------------+---------------+--------------------------+----------+---------------+------------------------------+-----------+--------------+
++---------------------+
+| TelefonesParentes   |
+|---------------------|
++---------------------+
++-------------+--------------------+---------------------+---------------------+------------------------------------------+---------------------+------------------------+-------------+---------------------+------------------------+----------------------------+------------------------+--------------------------+
+| Enderecos   | 0                  | 1                   | 2                   | 3                                        | 4                   | 5                      | 6           | 7                   | 8                      | 9                          | 10                     | 11                       |
+|-------------+--------------------+---------------------+---------------------+------------------------------------------+---------------------+------------------------+-------------+---------------------+------------------------+----------------------------+------------------------+--------------------------|
+| Endereco    | R  VALDEMAR MINARI | AV  SIQUEIRA CAMPOS | R  SETE DE SETEMBRO | AV  MANOEL ROMEU CAIRES                  | R  NOVE DE JULHO    | R  JULIO PERUCHE       | VE DE JULHO | R  JOSE GOMES       | R  JOSE STABILE        | R  ZEFERINO DANIEL CASEIRO | R  JULIO PERUCHE       | JULIO PERUCHE            |
+| Numero      | 80                 | 86                  | 80                  | 267                                      | 264                 | 725                    | 264         | 558                 | 403                    | 454                        | 725                    | 725                      |
+| Complemento |                    |                     |                     | BL D 4                                   | C                   | BL P AP 32             | 1           |                     |                        |                            | AP 32 OUT BLOC P       |                          |
+| Bairro      | NOSSO TETO         | VL OPERARIA         |                     | CJ HABITACIONAL JARDIM HUMBERTO SALVADOR | CENTRO              | JD MARACANA            | CENTRO      | CENTRO              | JD ITAPURA             | JD MARACANA                | JD MARACANA            | JARDIM MARACANA          |
+| CEP         | 19840000           | 19804010            | 19840000            | 19100100                                 | 19840000            | 19026260               | 19840000    | 19570000            | 19042240               | 19026250                   | 19026260               | 19.026-260               |
+| Cidade      | MARACAI-SP         | ASSIS-SP            | MARACAI-SP          | PRESIDENTE PRUDENTE-SP                   | MARACAI-SP          | PRESIDENTE PRUDENTE-SP | MARACAI-SP  | REGENTE FEIJO-SP    | PRESIDENTE PRUDENTE-SP | PRESIDENTE PRUDENTE-SP     | PRESIDENTE PRUDENTE-SP | PRESIDENTE PRUDENTE - SP |
+| Latitude    |                    | -22.662018950000000 | -22.609224890000000 | -22.087403999999999                      | -22.611084090000000 | -22.107206999999999    |             | -22.223796170000000 | -22.133480960000000    | -22.104222350000000        | -22.107206999999999    | nan                      |
+| Longitude   |                    | -50.423986930000000 | -50.668810960000000 | -51.404837000000001                      | -50.668977730000000 | -51.417935999999997    |             | -51.311813130000000 | -51.369347830000000    | -51.420296520000000        | -51.417935999999997    | nan                      |
++-------------+--------------------+---------------------+---------------------+------------------------------------------+---------------------+------------------------+-------------+---------------------+------------------------+----------------------------+------------------------+--------------------------+
++-------------+
+| Telefones   |
+|-------------|
++-------------+
++----------+----------------------+
+|   Emails | 0                    |
+|----------+----------------------|
+|        0 | contattoz@uol.com.br |
++----------+----------------------+
++-------------+--------------------------+----------------------------+----------------+-------------+----------+------------+------------+-----------+
+|   Trabalhos | Nome Fantasia            | Razão Social               |           CNPJ |         PIS | Status   | Admissão   | Demissão   | Salário   |
+|-------------+--------------------------+----------------------------+----------------+-------------+----------+------------+------------+-----------|
+|           0 | SECRETARIA DA HABITACAO  | ESTADO DE SAO PAULO        | 46379400000150 | 12086013932 | Ativo    | 01/02/2013 | N/A        | 4119,00   |
+|           1 | FUNDO MUNICIPAL DE SAUDE | MUNICIPIO DE REGENTE FEIJO | 48813638000178 | 12086013932 | Ativo    | 02/02/2011 | N/A        | 0817,00   |
++-------------+--------------------------+----------------------------+----------------+-------------+----------+------------+------------+-----------+

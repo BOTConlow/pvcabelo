@@ -4,12 +4,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Dep1 from '../../assets/dep1.jpg'
-import Dep2 from '../../assets/dep2.jpg'
-import Dep4 from '../../assets/dep4.jpg'
-import Dep5 from '../../assets/dep5.jpg'
-import Dep6 from '../../assets/dep6.jpg'
-import Dep7 from '../../assets/dep7.jpg'
-import Dep8 from '../../assets/dep8.jpg'
+import Dep2 from '../../assets/dep2.webp'
+import Dep4 from '../../assets/dep4.webp'
+import Dep5 from '../../assets/dep5.webp'
+import Dep6 from '../../assets/dep6.webp'
+import Dep7 from '../../assets/dep7.webp'
+import Dep8 from '../../assets/dep8.webp'
 import Dep9 from '../../assets/dep9.webp'
 
 export function Depoimentos({depoimentosRef}) {
