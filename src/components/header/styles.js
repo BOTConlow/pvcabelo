@@ -19,15 +19,48 @@ export const HeaderContainer = styled.header`
 
 `
 
-export const ButtonContent = styled.header`
+export const ButtonContent = styled.button`
 
+        background: transparent;
         display: none;
+
 
         @media (max-width: 1000px) {
             display: flex;
         }
 
 `
+
+export const Bar = styled.div`
+
+    display: flex;
+    gap: .3rem;
+    margin-top: 5rem;
+
+    svg {
+        margin-top: 2rem;
+    }
+`
+
+
+export const BarContent = styled.div`
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: #fadabb;
+    padding: .5rem;
+    border-radius: 8px;
+    z-index: 99;
+    
+    button {
+        color: #4c2d2d;
+        font-weight: bold;
+        background: transparent;
+    }
+
+`
+
 
 
 export const HeaderContents = styled.div`
@@ -63,6 +96,10 @@ export const Contact = styled.button`
     border: 1px solid ${props => props.theme.secondary};
     border-radius: 20px;
     padding: .5rem 1rem;
+
+    @media (max-width: 1000px) {
+        border: 1px solid ${props => props.theme.primary};
+        }
 
     &:hover {
         transition: 200ms ease;

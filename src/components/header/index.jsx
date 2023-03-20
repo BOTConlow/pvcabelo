@@ -1,8 +1,13 @@
-import { HeaderContainer, HeaderContents, Contact, Instagram, ButtonContent } from "./styles";
+import { HeaderContainer, HeaderContents, Contact, Instagram, ButtonContent, BarContent, Bar } from "./styles";
 import Logo from '../../assets/LOGO.svg'
-import { List } from "phosphor-react";
+import { CaretDown, List, X } from "phosphor-react";
+import { useState } from "react";
 
 export function Header({ chatRef, tratamentosRef, depoimentosRef, draRef, grupoRef }) {
+
+    const [openBar, SetOpenBar] = useState(false)
+
+    const handleOpenBar = () => SetOpenBar(!openBar)
 
     const goToRef = (ref) => ref.current?.scrollIntoView({
         behavior: 'smooth',
@@ -16,8 +21,49 @@ export function Header({ chatRef, tratamentosRef, depoimentosRef, draRef, grupoR
                 src={Logo}
             />
 
-            <ButtonContent>
-                <List size={32} weight="bold" color="#fadabb" />
+            <ButtonContent onClick={handleOpenBar}>
+                {openBar ?
+                    <Bar>
+                        <X size={32} weight="bold" color="#fadabb" />
+                        <BarContent>
+                            <button
+                                className='linkButton'
+                            >
+                                HOME
+                            </button>
+                            <button
+                                onClick={() => goToRef(chatRef)}
+                                className='linkButton'
+                            >
+                                CHAT ONLINE
+                            </button>
+                            <button
+                                onClick={() => goToRef(tratamentosRef)}
+                                className='linkButton'
+                            >
+                                TRATAMENTOS
+                            </button>
+                            <button
+                                onClick={() => goToRef(depoimentosRef)}
+                                className='linkButton'
+                            >
+                                DEPOIMENTOS
+                            </button>
+                            <button
+                                onClick={() => goToRef(draRef)}
+                                className='linkButton'
+                            >
+                                SOBRE A DRA.
+                            </button>
+
+                            <Contact onClick={() => goToRef(grupoRef)}>
+                                GRUPO VIP
+                            </Contact>
+                        </BarContent>
+                    </Bar>
+                    : <List size={32} weight="bold" color="#fadabb" />
+                }
+
             </ButtonContent>
 
             <HeaderContents>
