@@ -31,10 +31,10 @@ export function Dermatologista({ draRef }) {
                     FAÇA SUA INSCRIÇÃO E COMECE HOJE MESMO
                 </p>
                 <h1>
-                    De R$ 397,00
+                    De R$ 300,00
                 </h1>
                 <p>
-                    <span style={{ color: '#ffdebf' }}>Por 11x de 5,38</span> ou R$ 49,80 à vista
+                    <span style={{ color: '#ffdebf' }}>Por 6x de 14,31</span> ou R$ 85,90 à vista
                 </p>
                 <h2>
                     <u>Promoção expira em 1 semana!</u>

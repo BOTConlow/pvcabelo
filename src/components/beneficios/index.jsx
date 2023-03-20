@@ -4,10 +4,10 @@ import Crescimento from '../../assets/crescimento.webp'
 import Hidratacao from '../../assets/hidratado.webp'
 import Pontas from '../../assets/pontas.webp'
 
-export function Beneficios({tratamentosRef}) {
+export function Beneficios({ tratamentosRef }) {
 
     return (
-        <BeneficiosContainer  ref={tratamentosRef}>
+        <BeneficiosContainer ref={tratamentosRef}>
             <h1>
                 O que o <span style={{ color: '#573333' }}>Cronograma Capilar</span> pode fazer por você?
             </h1>
@@ -16,10 +16,10 @@ export function Beneficios({tratamentosRef}) {
                     <Box>
                         <Title>
                             <h2>
-                                Aumenta o Crescimento
+                                Potencializa o Crescimento
                             </h2>
                             <p>
-                                Com ingredientes naturais e fórmula exclusiva, nossas receitas caseiras ajudam a estimular o crescimento de novos fios e fortalecer os já existentes. Isso ocorre porque os ingredientes presentes ajudam a fornecer os nutrientes necessários para o cabelo crescer forte e saudável, além de ajudar a melhorar a circulação sanguínea no couro cabeludo devido ao aumento da temperatura coporal, o que estimula o crescimento dos fios.
+                                Com ingredientes naturais e fórmula exclusiva, nossas receitas caseiras ajudam a estimular o crescimento de novos fios e fortalecer os já existentes. Isso ocorre porque os ingredientes presentes aumentam a sua temperatura corporal interna, assim seu metabolismo acelera e melhora circulação do sangue no couro cabeludo fazendo que seu cabelo cresça 46% mais.
                             </p>
                         </Title>
                         <Content>

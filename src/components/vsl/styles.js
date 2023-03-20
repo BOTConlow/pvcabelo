@@ -9,6 +9,10 @@ export const VslContent = styled.div`
     justify-content: center;
     align-items: center;
 
+    button {
+        margin-top: 5rem;
+    }
+
     @media (max-width: 1000px) {
         height: 530px;
         padding-top: 0;
@@ -40,7 +44,6 @@ export const Content = styled.div`
     align-items: center;
     justify-content: space-between;
     gap: 3rem;
-    margin-bottom: 5rem;
 
     @media (max-width: 1000px) {
             flex-direction: column;

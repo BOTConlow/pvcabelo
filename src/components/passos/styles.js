@@ -6,7 +6,7 @@ export const PassosContainer = styled.div`
     margin-bottom: 2rem;
 
     h1 {
-        font-size: 2.9rem;
+        font-size: 2.8rem;
         margin-bottom: 3.4rem;
         text-align: center;
 
@@ -40,7 +40,7 @@ export const Content = styled.div`
 export const Textcontent = styled.div`
 
     width: 100%;
-    height: 25rem;
+    height: 22rem;
     display: flex;
     flex-direction: column;
     justify-content: center;

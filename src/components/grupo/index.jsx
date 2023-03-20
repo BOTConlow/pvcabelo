@@ -35,7 +35,7 @@ export function GrupoVip({grupoRef}) {
                                 Inspire outras mulheres
                             </h1>
                             <p>
-                                Você pode postar seus resultados, pratos e como está se sentindo. Faça parte da nossa comunidade com mais de 8 mil pessoas com o mesmo objetivo que você: Alcançar o peso ideal e o corpo dos nossos sonhos.                            </p>
+                                Você pode postar seus resultados, pratos e como está se sentindo. Faça parte da nossa comunidade com mais de 2 mil pessoas com o mesmo objetivo que você: Alcançar o peso ideal e o corpo dos nossos sonhos.                            </p>
                         </div>
                     </Text>
                 </div>

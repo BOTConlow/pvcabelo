@@ -1,5 +1,5 @@
 import { AcessoContainer, Image, Texts } from "./style";
-import Celular from '../../assets/celular2.webp'
+import Celular from '../../assets/celular2.png'
 import { Button } from "../button";
 
 
