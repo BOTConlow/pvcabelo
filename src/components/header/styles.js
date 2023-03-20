@@ -34,8 +34,10 @@ export const ButtonContent = styled.button`
 export const Bar = styled.div`
 
     display: flex;
+    position: fixed;
     gap: .3rem;
-    margin-top: 5rem;
+    right: 0;
+    top: 0;
 
     svg {
         margin-top: 2rem;
