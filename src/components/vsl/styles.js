@@ -10,7 +10,7 @@ export const VslContent = styled.div`
     align-items: center;
 
     button {
-        margin-top: 5rem;
+        margin-top: 3.5rem;
     }
 
     @media (max-width: 1000px) {
