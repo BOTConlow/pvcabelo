@@ -36,8 +36,8 @@ export const Bar = styled.div`
 
     display: flex;
     position: fixed;
-    right: 0;
-    top: 0;
+    right: .6rem;
+    top: .6rem;
     gap: .3rem;
     animation: openAnim 200ms linear;
 
