@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { keyframes} from "styled-components"
 
 export const HeaderContainer = styled.header`
 
@@ -35,12 +36,19 @@ export const Bar = styled.div`
 
     display: flex;
     position: fixed;
-    gap: .3rem;
     right: 0;
     top: 0;
+    gap: .3rem;
+    animation: openAnim 200ms linear;
 
-    svg {
-        margin-top: 2rem;
+
+    @keyframes openAnim {
+        0% {
+            right: -200px;
+        }
+        100% {
+            right: 0;
+        }
     }
 `
 
@@ -49,14 +57,16 @@ export const BarContent = styled.div`
 
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 1rem;
     background: #fadabb;
-    padding: .5rem;
+    padding: .7rem;
     border-radius: 8px;
     z-index: 99;
     
     button {
-        color: #4c2d2d;
+        color: #2b2b2b;
         font-weight: bold;
         background: transparent;
     }
@@ -107,6 +117,10 @@ export const Contact = styled.button`
         transition: 200ms ease;
         background: ${props => props.theme.secondary};
         color: white !important;
+
+        @media (max-width: 1000px) {
+            background: ${props => props.theme.primary};
+        }
     }
 
 `

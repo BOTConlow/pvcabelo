@@ -10,7 +10,7 @@ export function Dermatologista({ draRef }) {
             <Texts>
                 <div>
                     <h1>
-                        Conheça sua <span style={{ color: '#4c2d2d' }}>dermatologista</span>
+                        Conheça sua <span style={{ color: '#4c2d2d' }}>mentora</span>
                     </h1>
                     <p style={{ fontSize: '1.5rem' }}>
                         <span style={{ color: '#c9ae95' }}><b>Dra. PAULA ANDRADE</b></span>

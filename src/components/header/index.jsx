@@ -24,8 +24,8 @@ export function Header({ chatRef, tratamentosRef, depoimentosRef, draRef, grupoR
             <ButtonContent onClick={handleOpenBar}>
                 {openBar ?
                     <Bar>
-                        <X size={32} weight="bold" color="#fadabb" />
                         <BarContent>
+                            <X size={32} weight="bold" color="#4c2d2d" />
                             <button
                                 className='linkButton'
                             >
