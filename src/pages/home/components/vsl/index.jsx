@@ -9,7 +9,7 @@ export function Vsl() {
         <VslContent>
             <Content>
                 <Headline>
-                    <h1>Com Esses <span style={{ color: '#fadabb' }}>Simples Passos</span> Seu Cabelo <span style={{ color: '#fadabb' }}>Cresce 46% Mais</span> E Elimina Totalmente As <span style={{ color: '#fadabb' }}>Pontas Duplas</span> E <span style={{ color: '#fadabb' }}>Frizz</span></h1>
+                    <h1>Como Faço Uma <span style={{ color: '#fadabb' }}>Hidratação Poderosa</span> No Chuveiro Que <span style={{ color: '#fadabb' }}>Hidrata</span> e <span style={{ color: '#fadabb' }}>Potencializa</span> o <span style={{ color: '#fadabb' }}>Crescimento.</span></h1>
                 </Headline>
                 <VslStyle>
                     <iframe
