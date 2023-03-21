@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const VslContent = styled.div`
 
-    height: 785px;
+    height: 710px;
     padding: 3rem 0;
     display: flex;
     flex-direction: column;
