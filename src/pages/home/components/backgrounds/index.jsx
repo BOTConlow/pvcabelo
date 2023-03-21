@@ -1,4 +1,4 @@
-import Background1 from '../../../../assets/background1.webp'
+import Background1 from '../../../../assets/background1.png'
 import { Content } from './styles'
 
 
