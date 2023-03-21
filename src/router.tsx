@@ -14,7 +14,7 @@ export function AppRoutes() {
         <Router>
             <Routes>
                 <Route index element={<HomePage />}/>
-                <Route path='/thankspage' element={<ThanksPage />}/>
+                <Route path='/thank_you' element={<ThanksPage />}/>
             </Routes>
         </Router>
 
