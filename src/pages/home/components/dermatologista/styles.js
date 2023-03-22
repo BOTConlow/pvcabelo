@@ -30,7 +30,7 @@ export const Texts = styled.div`
         margin: 2rem 0;
 
         @media (max-width: 1000px) {
-            font-size: 2.5rem;
+            font-size: 3rem;
             text-align: center;
             margin: 0;
             margin-bottom: 2rem;

@@ -23,6 +23,8 @@ export function HomePage() {
   const draRef = useRef()
   const grupoRef = useRef()
   const [time, setTime] = useState(false)
+  const [timePage, setTimePage] = useState(false)
+
 
   useEffect(() => {
 
@@ -31,6 +33,16 @@ export function HomePage() {
       setTime(true)
 
     }, 747000)
+
+  }, [])
+
+  useEffect(() => {
+
+    setTimeout(() => {
+
+      setTimePage(true)
+
+    }, 180000)
 
   }, [])
 
@@ -62,33 +74,37 @@ export function HomePage() {
         <Comentarios chatRef={chatRef} />
       </Container>
 
-      <Background bgImage='background3'>
+      {timePage && <>
+
+        <Background bgImage='background3'>
+          <Container>
+            <Depoimentos depoimentosRef={depoimentosRef} />
+          </Container>
+        </Background>
+
         <Container>
-          <Depoimentos depoimentosRef={depoimentosRef} />
+          <Beneficios tratamentosRef={tratamentosRef} />
+          <Passos />
         </Container>
-      </Background>
 
-      <Container>
-        <Beneficios tratamentosRef={tratamentosRef} />
-        <Passos />
-      </Container>
+        <Background bgImage='background3'>
+          <Container>
+            <Acesso />
+          </Container>
+        </Background>
 
-      <Background bgImage='background3'>
         <Container>
-          <Acesso />
+          <Dermatologista draRef={draRef} />
+          <Bonus />
         </Container>
-      </Background>
 
-      <Container>
-        <Dermatologista draRef={draRef} />
-        <Bonus />
-      </Container>
+        <Background bgImage='background3'>
+          <Container>
+            <GrupoVip grupoRef={grupoRef} />
+          </Container>
+        </Background>
 
-      <Background bgImage='background3'>
-        <Container>
-          <GrupoVip grupoRef={grupoRef} />
-        </Container>
-      </Background>
+      </>}
 
       {time && <>
         <Container>
@@ -96,11 +112,15 @@ export function HomePage() {
         </Container>
       </>}
 
-      <Background bgImage='background3'>
-        <Container>
-          <Duvidas />
-        </Container>
-      </Background>
+      {timePage && <>
+
+        <Background bgImage='background3'>
+          <Container>
+            <Duvidas />
+          </Container>
+        </Background>
+
+      </>}
 
     </div>
   )
