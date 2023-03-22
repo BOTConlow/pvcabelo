@@ -13,7 +13,7 @@ export function Button(props) {
 
             setTime(true)
 
-        }, 800000)
+        }, 570000)
 
     }, [])
 
@@ -58,7 +58,7 @@ export function Button2(props) {
 
             setTime(true)
 
-        }, 800000)
+        }, 570000)
 
     }, [])
 
