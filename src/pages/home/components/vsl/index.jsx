@@ -18,8 +18,8 @@ export function Vsl() {
                         src="https://player-vz-5d275861-3c8.tv.pandavideo.com.br/embed/?v=428d0b21-6183-4a1d-aced-409d81ed9325"
                         style={{ border: 'none' }}
                         allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture"
-                        width="720"
-                        height="360"
+                        width="100%"
+                        height="100%"
                         fetchpriority="high">
                     </iframe>
 
