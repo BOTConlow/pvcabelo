@@ -10,7 +10,7 @@ export const VslContent = styled.div`
     align-items: center;
 
     @media (max-width: 1000px) {
-        height: 480px;
+        height: 540px;
         padding-top: 0;
         padding: 0 1rem;
     }
