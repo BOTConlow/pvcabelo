@@ -32,7 +32,7 @@ export function HomePage() {
 
       setTime(true)
 
-    }, 747000)
+    }, 570000)
 
   }, [])
 

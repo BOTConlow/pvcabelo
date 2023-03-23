@@ -14,8 +14,8 @@ export function Vsl() {
                 <VslStyle>
 
                     <iframe
-                        id="panda-428d0b21-6183-4a1d-aced-409d81ed9325"
-                        src="https://player-vz-5d275861-3c8.tv.pandavideo.com.br/embed/?v=428d0b21-6183-4a1d-aced-409d81ed9325"
+                        id="panda-b4305bc6-f555-44fd-bb26-b3264ce87c9b"
+                        src="https://player-vz-4c44e78e-c09.tv.pandavideo.com.br/embed/?v=b4305bc6-f555-44fd-bb26-b3264ce87c9b"
                         style={{ border: 'none' }}
                         allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture"
                         width="100%"
