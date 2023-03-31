@@ -14,12 +14,12 @@ export function Vsl() {
                 <VslStyle>
 
                     <iframe
-                        id="panda-b4305bc6-f555-44fd-bb26-b3264ce87c9b"
-                        src="https://player-vz-4c44e78e-c09.tv.pandavideo.com.br/embed/?v=b4305bc6-f555-44fd-bb26-b3264ce87c9b"
+                        id="panda-4295005e-1128-4f20-8d01-87cf4fe97d55"
+                        src="https://player-vz-4c44e78e-c09.tv.pandavideo.com.br/embed/?v=4295005e-1128-4f20-8d01-87cf4fe97d55"
                         style={{ border: 'none' }}
                         allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture"
-                        width="100%"
-                        height="100%"
+                        width="720"
+                        height="360"
                         fetchpriority="high">
                     </iframe>
 
