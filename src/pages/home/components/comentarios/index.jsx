@@ -20,9 +20,7 @@ import Perfil12 from '../../../../assets/perfil12.webp'
 import Perfil13 from '../../../../assets/perfil13.webp'
 import Perfil14 from '../../../../assets/perfil14.webp'
 import Perfil15 from '../../../../assets/perfil15.webp'
-import Perfil16 from '../../../../assets/perfil16.webp'
 import Perfil17 from '../../../../assets/perfil17.webp'
-import Perfil18 from '../../../../assets/perfil18.webp'
 import Perfil19 from '../../../../assets/perfil19.webp'
 import Perfil20 from '../../../../assets/perfil20.webp'
 import Perfil21 from '../../../../assets/perfil21.webp'
@@ -31,7 +29,6 @@ import Perfil23 from '../../../../assets/perfil23.webp'
 import Perfil24 from '../../../../assets/perfil24.webp'
 import Perfil25 from '../../../../assets/perfil25.webp'
 import Perfil26 from '../../../../assets/perfil26.webp'
-import Perfil27 from '../../../../assets/perfil27.webp'
 
 
 export function DepoimentoBoxFinal(props) {
