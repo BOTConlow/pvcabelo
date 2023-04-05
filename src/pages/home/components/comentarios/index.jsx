@@ -383,7 +383,7 @@ export function Comentarios({ chatRef }) {
                             </SecondAnswer>
                             <SecondAnswer>
                                 <ComentarioStruture
-                                    src={Perfil16}
+                                    src={Perfil13}
                                     title={'Renata Rios'}
                                     desc={'SIM!! podem confiar'}
                                     time={'4 horas'}
@@ -401,7 +401,7 @@ export function Comentarios({ chatRef }) {
                             </SecondAnswer>
                             <SecondAnswer>
                                 <ComentarioStruture
-                                    src={Perfil18}
+                                    src={Perfil13}
                                     title={'Renata Rios'}
                                     desc={'Podem confiar, já notei diferença, e ainda to na segunda semana!'}
                                     time={'1 hora'}
@@ -486,7 +486,7 @@ export function Comentarios({ chatRef }) {
                         </Answer>
                         <SecondAnswer>
                             <ComentarioStruture
-                                src={Perfil27}
+                                src={Perfil25}
                                 title={'Sara Moscato'}
                                 desc={'Sim, pode confiar! Já tive um bom resultado em poucas semanas.'}
                                 time={'7 horas'}
