@@ -1,6 +1,6 @@
-import { CaretDown, CaretRight, Trash } from "phosphor-react";
+import { ArrowBendDownLeft, ArrowBendDownRight, CaretDown, CaretRight, Trash } from "phosphor-react";
 import { ComentarioStruture } from "./comentario";
-import { Answer, ButtonOpenDesc, ComentariosContainer, ComentariosContent, ComentariosSession, Feedback, RemoveButton, Response, SecondAnswer, SetButton, SetComent, SetFeedback, Showanswer, Title } from "./styles";
+import { Answer, ButtonOpenDesc, ComentariosContainer, ComentariosContent, ComentariosSession, Feedback, MoreAnswer, RemoveButton, Response, SecondAnswer, SetButton, SetComent, SetFeedback, Showanswer, Title } from "./styles";
 import { formatDistanceToNow } from 'date-fns';
 import ptBR from 'date-fns/locale/pt-BR';
 import Avatar from '../../../../assets/avatar.webp'
@@ -32,6 +32,7 @@ import Perfil26 from '../../../../assets/perfil26.webp'
 
 
 export function DepoimentoBoxFinal(props) {
+
     const { haveAnswer } = props
     const [openDesc, setOpenDesc] = useState(false)
     const handleOpenDesc = () => setOpenDesc(!openDesc)
@@ -83,6 +84,9 @@ export function Comentarios({ chatRef }) {
     const [date3, setDate3] = useState(new Date())
     const [date4, setDate4] = useState(new Date())
     const [date5, setDate5] = useState(new Date())
+
+    const [OpenAnsw, SetOpenAnsw] = useState(false)
+    const handleOpenAnsw = () => SetOpenAnsw(!OpenAnsw)
 
     useEffect(() => {
 
@@ -332,166 +336,183 @@ export function Comentarios({ chatRef }) {
 
                     </DepoimentoBoxFinal>
 
-                    <DepoimentoBoxFinal
-                        src={Perfil11}
-                        title={'Marcela Rodrigues'}
-                        desc={'Melhor escolha da minha vida, meu cabelo está crescendo muito, to amando o resultado, já senti diferença na primeira semana, incrível!!'}
-                        time={'3 horas'}
-                        ammount={65}
-                    />
 
-                    <DepoimentoBoxFinal
-                        src={Perfil12}
-                        title={'Josiane Moraes'}
-                        desc={'Vi muita gente comentando e compartilhando, deve funcionar'}
-                        time={'5 horas'}
-                        ammount={84}
-                    />
+                    <div>
 
+                        <div onClick={handleOpenAnsw}>
 
-                    <DepoimentoBoxFinal
-                        src={Perfil13}
-                        title={'Renata Rios'}
-                        desc={'Recomendo, duas semanas de uso e meu cabelo já cresceu'}
-                        time={'7 horas'}
-                        ammount={76}
-                        haveAnswer
-                    >
+                            {OpenAnsw ?
+                                <div>
+                                    <DepoimentoBoxFinal
+                                        src={Perfil11}
+                                        title={'Marcela Rodrigues'}
+                                        desc={'Melhor escolha da minha vida, meu cabelo está crescendo muito, to amando o resultado, já senti diferença na primeira semana, incrível!!'}
+                                        time={'3 horas'}
+                                        ammount={65}
+                                    />
 
-                        <div>
+                                    <DepoimentoBoxFinal
+                                        src={Perfil12}
+                                        title={'Josiane Moraes'}
+                                        desc={'Vi muita gente comentando e compartilhando, deve funcionar'}
+                                        time={'5 horas'}
+                                        ammount={84}
+                                    />
 
-                            <Answer>
-                                <ComentarioStruture
-                                    src={Perfil14}
-                                    title={'Julia Campos'}
-                                    desc={'Sério???'}
-                                    time={'7 horas'}
-                                    ammount={111}
-                                />
-                            </Answer>
-                            <SecondAnswer>
-                                <ComentarioStruture
-                                    src={Perfil15}
-                                    title={'Paula R.'}
-                                    desc={'Funciona mesmo??'}
-                                    time={'6 horas'}
-                                    ammount={56}
-                                />
-                            </SecondAnswer>
-                            <SecondAnswer>
-                                <ComentarioStruture
-                                    src={Perfil13}
-                                    title={'Renata Rios'}
-                                    desc={'SIM!! podem confiar'}
-                                    time={'4 horas'}
-                                    ammount={46}
-                                />
-                            </SecondAnswer>
-                            <SecondAnswer>
-                                <ComentarioStruture
-                                    src={Perfil17}
-                                    title={'Ivete Fernandes'}
-                                    desc={'vou usar então, não aguento mais sofrer com isso, meu cabelo está muito quebradiço'}
-                                    time={'3 horas'}
-                                    ammount={54}
-                                />
-                            </SecondAnswer>
-                            <SecondAnswer>
-                                <ComentarioStruture
-                                    src={Perfil13}
-                                    title={'Renata Rios'}
-                                    desc={'Podem confiar, já notei diferença, e ainda to na segunda semana!'}
-                                    time={'1 hora'}
-                                    ammount={32}
-                                />
-                            </SecondAnswer>
+                                    <DepoimentoBoxFinal
+                                        src={Perfil13}
+                                        title={'Renata Rios'}
+                                        desc={'Recomendo, duas semanas de uso e meu cabelo já cresceu'}
+                                        time={'7 horas'}
+                                        ammount={76}
+                                        haveAnswer
+                                    >
 
+                                        <div>
+
+                                            <Answer>
+                                                <ComentarioStruture
+                                                    src={Perfil14}
+                                                    title={'Julia Campos'}
+                                                    desc={'Sério???'}
+                                                    time={'7 horas'}
+                                                    ammount={111}
+                                                />
+                                            </Answer>
+                                            <SecondAnswer>
+                                                <ComentarioStruture
+                                                    src={Perfil15}
+                                                    title={'Paula R.'}
+                                                    desc={'Funciona mesmo??'}
+                                                    time={'6 horas'}
+                                                    ammount={56}
+                                                />
+                                            </SecondAnswer>
+                                            <SecondAnswer>
+                                                <ComentarioStruture
+                                                    src={Perfil13}
+                                                    title={'Renata Rios'}
+                                                    desc={'SIM!! podem confiar'}
+                                                    time={'4 horas'}
+                                                    ammount={46}
+                                                />
+                                            </SecondAnswer>
+                                            <SecondAnswer>
+                                                <ComentarioStruture
+                                                    src={Perfil17}
+                                                    title={'Ivete Fernandes'}
+                                                    desc={'vou usar então, não aguento mais sofrer com isso, meu cabelo está muito quebradiço'}
+                                                    time={'3 horas'}
+                                                    ammount={54}
+                                                />
+                                            </SecondAnswer>
+                                            <SecondAnswer>
+                                                <ComentarioStruture
+                                                    src={Perfil13}
+                                                    title={'Renata Rios'}
+                                                    desc={'Podem confiar, já notei diferença, e ainda to na segunda semana!'}
+                                                    time={'1 hora'}
+                                                    ammount={32}
+                                                />
+                                            </SecondAnswer>
+
+                                        </div>
+                                    </DepoimentoBoxFinal>
+
+                                    <DepoimentoBoxFinal
+                                        src={Perfil19}
+                                        title={'Barbara Oliveira'}
+                                        desc={'Meninaaas que cronograma é esse, meu cabelo é completamente outro kkk. Só a gente sabe como isso afeta nossa autoestima'}
+                                        time={'8 horas'}
+                                        ammount={126}
+                                    />
+
+                                    <DepoimentoBoxFinal
+                                        src={Perfil20}
+                                        title={'Cristiane Vargas'}
+                                        desc={'Eu sou de Manaus e funcionou muito bem nessa região úmida, tanto eu como minha cunhada tinhamos o cabelo muito ressecado, seguimos o passo a passo do cronograma e tivemos resultados bem rápido, e olha que antes disso eu e ela já tinhamos gastado muito dinheiro e nada funcionava!!'}
+                                        time={'10 horas'}
+                                        ammount={62}
+                                        haveAnswer
+
+                                    >
+                                        <Answer>
+                                            <ComentarioStruture
+                                                src={Perfil21}
+                                                title={'Gabriela Fogaça'}
+                                                desc={`Mesmo aqui em ${location.city} o método funciona, faz 2 meses q testei o método e meu cabelo nunca foi tão grande`}
+                                                time={'8 horas'}
+                                                ammount={72}
+                                            />
+                                        </Answer>
+                                        <SecondAnswer>
+                                            <ComentarioStruture
+                                                src={Perfil22}
+                                                title={'Miriam Costa'}
+                                                desc={'Aqui em Brasília tb funcionou muito bem, apesar da secura da região. Estou a um mês usando o cronograma. Só gratidão'}
+                                                time={'4 horas'}
+                                                ammount={23}
+                                            />
+                                        </SecondAnswer>
+                                    </DepoimentoBoxFinal>
+
+                                    <DepoimentoBoxFinal
+                                        src={Perfil23}
+                                        title={'Andreia Lima'}
+                                        desc={'Coitado de quem ainda não descobriu esse cronograma kakakaka vai sofrer o resto da vida '}
+                                        time={'11 horas'}
+                                        ammount={88}
+                                    />
+
+                                    <DepoimentoBoxFinal
+                                        src={Perfil24}
+                                        title={'Luciana Oliveira'}
+                                        desc={'Super apaixonada, meu cabelo ficou mega hidratado e super brilhoso, fui em uma reunião no domingo a noite e muitos perguntaram o que eu tinha feito no cabelo que estava tão brilhoso...'}
+                                        time={'13 horas'}
+                                        ammount={102}
+                                    >
+                                    </DepoimentoBoxFinal>
+
+                                    <DepoimentoBoxFinal
+                                        src={Perfil25}
+                                        title={'Sara Moscato'}
+                                        desc={'De cara não ia testar esse cronograma, ainda bem que decidi dar essa chance, pois já tinha tentado de tudo e nada funcionava, achei que esse fosse mais um daqueles produtos que prometem ser milagrosos mas não funcionam'}
+                                        time={'13 horas'}
+                                        ammount={154}
+                                        haveAnswer
+
+                                    >
+                                        <Answer>
+                                            <ComentarioStruture
+                                                src={Perfil26}
+                                                title={'Graciele Serra'}
+                                                desc={'Mas funciona mesmo????'}
+                                                time={'9 horas'}
+                                                ammount={64}
+                                            />
+                                        </Answer>
+                                        <SecondAnswer>
+                                            <ComentarioStruture
+                                                src={Perfil25}
+                                                title={'Sara Moscato'}
+                                                desc={'Sim, pode confiar! Já tive um bom resultado em poucas semanas.'}
+                                                time={'7 horas'}
+                                                ammount={96}
+                                            />
+                                        </SecondAnswer>
+
+                                    </DepoimentoBoxFinal>
+                                </div>
+
+                                : <MoreAnswer>
+                                    <ArrowBendDownRight size={25} />
+                                    <h3>Ver mais respostas</h3>
+                                </MoreAnswer>}
                         </div>
-                    </DepoimentoBoxFinal>
 
-                    <DepoimentoBoxFinal
-                        src={Perfil19}
-                        title={'Barbara Oliveira'}
-                        desc={'Meninaaas que cronograma é esse, meu cabelo é completamente outro kkk. Só a gente sabe como isso afeta nossa autoestima'}
-                        time={'8 horas'}
-                        ammount={126}
-                    />
 
-                    <DepoimentoBoxFinal
-                        src={Perfil20}
-                        title={'Cristiane Vargas'}
-                        desc={'Eu sou de Manaus e funcionou muito bem nessa região úmida, tanto eu como minha cunhada tinhamos o cabelo muito ressecado, seguimos o passo a passo do cronograma e tivemos resultados bem rápido, e olha que antes disso eu e ela já tinhamos gastado muito dinheiro e nada funcionava!!'}
-                        time={'10 horas'}
-                        ammount={62}
-                        haveAnswer
+                    </div>
 
-                    >
-                        <Answer>
-                            <ComentarioStruture
-                                src={Perfil21}
-                                title={'Gabriela Fogaça'}
-                                desc={`Mesmo aqui em ${location.city} o método funciona, faz 2 meses q testei o método e meu cabelo nunca foi tão grande`}
-                                time={'8 horas'}
-                                ammount={72}
-                            />
-                        </Answer>
-                        <SecondAnswer>
-                            <ComentarioStruture
-                                src={Perfil22}
-                                title={'Miriam Costa'}
-                                desc={'Aqui em Brasília tb funcionou muito bem, apesar da secura da região. Estou a um mês usando o cronograma. Só gratidão'}
-                                time={'4 horas'}
-                                ammount={23}
-                            />
-                        </SecondAnswer>
-                    </DepoimentoBoxFinal>
-
-                    <DepoimentoBoxFinal
-                        src={Perfil23}
-                        title={'Andreia Lima'}
-                        desc={'Coitado de quem ainda não descobriu esse cronograma kakakaka vai sofrer o resto da vida '}
-                        time={'11 horas'}
-                        ammount={88}
-                    />
-
-                    <DepoimentoBoxFinal
-                        src={Perfil24}
-                        title={'Luciana Oliveira'}
-                        desc={'Super apaixonada, meu cabelo ficou mega hidratado e super brilhoso, fui em uma reunião no domingo a noite e muitos perguntaram o que eu tinha feito no cabelo que estava tão brilhoso...'}
-                        time={'13 horas'}
-                        ammount={102}
-                    >
-                    </DepoimentoBoxFinal>
-
-                    <DepoimentoBoxFinal
-                        src={Perfil25}
-                        title={'Sara Moscato'}
-                        desc={'De cara não ia testar esse cronograma, ainda bem que decidi dar essa chance, pois já tinha tentado de tudo e nada funcionava, achei que esse fosse mais um daqueles produtos que prometem ser milagrosos mas não funcionam'}
-                        time={'13 horas'}
-                        ammount={154}
-                        haveAnswer
-
-                    >
-                        <Answer>
-                            <ComentarioStruture
-                                src={Perfil26}
-                                title={'Graciele Serra'}
-                                desc={'Mas funciona mesmo????'}
-                                time={'9 horas'}
-                                ammount={64}
-                            />
-                        </Answer>
-                        <SecondAnswer>
-                            <ComentarioStruture
-                                src={Perfil25}
-                                title={'Sara Moscato'}
-                                desc={'Sim, pode confiar! Já tive um bom resultado em poucas semanas.'}
-                                time={'7 horas'}
-                                ammount={96}
-                            />
-                        </SecondAnswer>
-
-                    </DepoimentoBoxFinal>
 
                 </ComentariosSession>
 

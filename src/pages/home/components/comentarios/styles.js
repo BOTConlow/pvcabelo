@@ -84,7 +84,7 @@ export const ComentariosSession = styled.div`
 
     width: 100%;
     overflow: auto;
-    height: 45rem;
+    height: auto;
     margin: 2rem 0;
     padding-right: 1rem;
 
@@ -193,6 +193,22 @@ export const RemoveButton = styled.button`
     }
 
 `
+
+export const MoreAnswer = styled.button`
+    margin-top: 1rem;
+    color: #666666;
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+    background: transparent;
+    font-weight: bold;
+    font-size: 1rem;
+
+    &:hover {
+        text-decoration: underline;
+    }
+`
+
 
 
 
